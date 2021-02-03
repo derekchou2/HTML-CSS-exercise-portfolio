@@ -2,10 +2,74 @@ body {
     background-color: #C8D0D2;
 }
 
+h1 {
+    font-size: 48px;
+    margin: 0 0 0 0;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 0 0 0 0;
+}
+
+aside {
+    width: 30%;
+    float: right;
+    background-color: white;
+}
+
+.header {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.name-title {
+    display: inline-block;
+    position: relative;
+    bottom: 70px;
+    left: 100px;
+    width: 30%;
+   
+}
+
+#Contact_Info {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    height: auto;
+    bottom: 60px;
+    left: 100px;
+    width: 40%;
+    height: 200px;
+    font-size: 20px;
+}
+
+#bio {
+    display: inline-block;
+    position: relative;
+}
+
 #Name {
     color: blue;
 }
 
+#resume-stats {
+    display: inline-block;
+    width: 100%;
+}
+
 #Contact_Info{
     list-style: none;
+}
+
+#Employment {
+    width: 60%;
+    display: inline-block;
+}
+
+#Education {
+    width: 60%;
+    display: inline-block;
 }
