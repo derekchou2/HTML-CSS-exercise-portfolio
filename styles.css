@@ -1,5 +1,16 @@
 body {
-    background-color: #C8D0D2;
+    background-color: rgba(19, 12, 12, 0.91);
+    color: white;
+}
+
+ul > p {
+    color: gray;
+}
+
+li {
+    list-style: none;
+    font-weight: bold;
+    position: relative;
 }
 
 h1 {
@@ -28,7 +39,6 @@ h3 {
 aside {
     width: 30%;
     float: right;
-    background-color: white;
 }
 
 .header {
@@ -62,15 +72,20 @@ aside {
 #bio {
     display: inline-block;
     position: relative;
+    color: gray;
+    text-align: justify;
 }
 
-#Name {
-    color: blue;
-}
 
 #resume-stats {
     display: inline-block;
     width: 100%;
+}
+
+.name-title {
+    position: relative;
+    bottom: 130px;
+    right: 130px;
 }
 
 #Contact_Info{
@@ -88,13 +103,75 @@ aside {
 } */
 
 .container {
-    background-color: orange;
     margin: 0;
     padding: 0;
     display: inline-block;
     width: 60%;
 }
 
-.fas fa-caret-square-down {
+.empty-progress-bar {
+    width: 90%;
+    background-color: darkgray;
+}
+
+.filled-progress-bar {
+    text-align: right;
+}
+
+.filled-progress-bar.red {
+    width: 90%;
+    background-color: red;
+}
+
+.filled-progress-bar.blue {
+    width: 50%;
+    background-color: blue;
+}
+
+.filled-progress-bar.green {
+    width: 70%;
+    background-color: green;
+}
+
+.filled-progress-bar.purple {
+    width: 80%;
+    background-color: purple;
+}
+
+.filled-progress-bar.orange {
+    width: 70%;
+    background-color: orange;
+}
+
+.filled-progress-bar.yellow {
+    width: 85%;
+    background-color: yellow;
+}
+
+.fas.fa-caret-square-down.blue {
     color: blue;
+}
+
+.fas.fa-caret-square-down.green, .green-square {
+    color: green;
+}
+
+.blue-star, .blue-square {
+    color: blue;
+}
+
+.red-star, .red-square {
+    color: red;
+}
+
+.orange-square {
+    color: orange;
+}
+
+.yellow-square {
+    color: yellow;
+}
+
+.gray {
+    color: gray;
 }
